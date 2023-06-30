@@ -38,7 +38,7 @@ pipeline {
         stage ("run application"){
             steps{
                 script {
-                    sh 'docker run -d --name   sociaapp   -p 8081:80  722351645273.dkr.ecr.us-east-1.amazonaws.com/nextcloudapp:2'
+                    sh 'docker run -d --name   sociaapp1   -p 8081:80  722351645273.dkr.ecr.us-east-1.amazonaws.com/nextcloudapp:2'
                 }
             }
         }    
