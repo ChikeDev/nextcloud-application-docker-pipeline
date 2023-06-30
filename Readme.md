@@ -5,4 +5,4 @@ Testing push to ecr
 
 RUNNING THE APPLICATION USING THE ERC BUILT IMAGE. 
 
-docker run -d --name   sociaapp   -p 8080:80 
+docker run -d --name   sociaapp   -p 8080:80  722351645273.dkr.ecr.us-east-1.amazonaws.com/nextcloudapp:2

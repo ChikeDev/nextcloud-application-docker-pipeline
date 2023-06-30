@@ -33,6 +33,14 @@ pipeline {
                     
                 }
             }
+        }
+
+        stage ("run application"){
+            steps{
+                script {
+                    sh 'docker run -d --name   sociaapp   -p 8080:80  722351645273.dkr.ecr.us-east-1.amazonaws.com/nextcloudapp:2'
+                }
+            }
         }    
     }
 }
